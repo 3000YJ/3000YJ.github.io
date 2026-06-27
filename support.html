@@ -1,21 +1,215 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-CN">
-<head>
-  <meta charset="UTF-8">
-  <title>用户支持</title>
-</head>
-<body>
-  <h1>用户支持</h1>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>映见提词用户支持 / Yingjian Prompt Support</title>
+    <meta name="description" content="映见提词用户支持 / Yingjian Prompt Support">
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f5f7fb;
+        --card: #ffffff;
+        --text: #171a20;
+        --muted: #667085;
+        --line: #d9dee7;
+        --accent: #0f766e;
+      }
 
-  <p>如果您在使用本应用过程中遇到问题，或有任何意见与建议，请通过以下方式联系我们。</p>
+      * {
+        box-sizing: border-box;
+      }
 
-  <h2>联系方式</h2>
-  <p>邮箱：sjszl@vip.qq.com</p>
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font: 16px/1.72 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
 
-  <h2>处理说明</h2>
-  <p>我们会在合理时间内查看并处理您的反馈。</p>
+      main {
+        width: min(980px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 36px 0 56px;
+      }
 
-  <h2>适用范围</h2>
-  <p>本页面适用于本应用的用户咨询、问题反馈、功能建议及其他支持请求。</p>
-</body>
+      header,
+      section {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        box-shadow: 0 18px 50px rgba(15, 23, 42, 0.06);
+      }
+
+      header {
+        padding: 28px;
+        margin-bottom: 16px;
+      }
+
+      section {
+        padding: 28px;
+        margin-top: 16px;
+      }
+
+      h1,
+      h2,
+      h3 {
+        margin: 0;
+        line-height: 1.25;
+      }
+
+      h1 {
+        font-size: clamp(28px, 5vw, 42px);
+      }
+
+      h2 {
+        margin-bottom: 18px;
+        font-size: 24px;
+      }
+
+      h3 {
+        margin-top: 24px;
+        font-size: 18px;
+      }
+
+      p,
+      ul {
+        margin: 10px 0 0;
+      }
+
+      a {
+        color: var(--accent);
+        font-weight: 700;
+      }
+
+      .meta,
+      .lead {
+        color: var(--muted);
+      }
+
+      .nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 20px;
+      }
+
+      .nav a {
+        display: inline-flex;
+        min-height: 38px;
+        align-items: center;
+        padding: 0 14px;
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        background: #f8fafc;
+        text-decoration: none;
+      }
+
+      .contact {
+        padding: 14px 16px;
+        border-radius: 12px;
+        background: #ecfdf5;
+        color: #064e3b;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>映见提词用户支持<br>Yingjian Prompt Support</h1>
+        <p class="meta">更新日期 / Updated: 2026-06-27</p>
+        <p class="lead">本页面包含中文版和英文版用户支持信息。This page includes support information in Chinese and English.</p>
+        <nav class="nav" aria-label="Language navigation">
+          <a href="#zh">中文版</a>
+          <a href="#en">English</a>
+          <a href="mailto:sjszl@vip.qq.com">sjszl@vip.qq.com</a>
+        </nav>
+      </header>
+
+      <section id="zh" lang="zh-CN">
+        <h2>中文版</h2>
+        <p>感谢使用映见提词。映见提词 V1 是一款面向口播、短视频拍摄、演讲和直播准备的本地提词工具。</p>
+
+        <h3>常见问题</h3>
+        <h3>1. 映见提词需要账号或服务器吗？</h3>
+        <p>V1 不需要账号，也不需要服务器。文稿和设置默认保存在你的设备本地。</p>
+
+        <h3>2. 文稿会上传到云端吗？</h3>
+        <p>不会。V1 的文稿库、标题、显示设置和语言偏好均保存在本地设备中。</p>
+
+        <h3>3. 如何导入文稿？</h3>
+        <p>在文稿库中点击“导入 TXT”，选择本地 TXT 文件即可。你也可以直接把 Word、网页或聊天软件里的文稿复制到正文框，应用会自动清理样式。</p>
+
+        <h3>4. 如何使用蓝牙翻页器？</h3>
+        <p>请先把蓝牙翻页器与设备配对。进入提词界面后，常用按键可控制播放、暂停、调速、快进和快退。不同翻页器的按键映射可能略有差异，建议先在正式拍摄前测试一次。</p>
+
+        <h3>5. 为什么添加到 iPad 桌面后仍显示旧名称或旧页面？</h3>
+        <p>如果设备缓存了旧版本，可以先删除桌面图标，再用 Safari 重新打开最新链接并添加到主屏幕。</p>
+
+        <h3>6. 文稿丢失怎么办？</h3>
+        <p>V1 使用本地储存。删除应用、清理浏览器网站数据、恢复系统或更换设备都可能导致本地文稿丢失。重要文稿建议定期使用“导出当前”备份为 TXT 文件。</p>
+
+        <h3>7. 如何切换中英文界面？</h3>
+        <p>后台顶部有语言按钮。默认语言会跟随系统语言，你也可以手动切换中文或英文。</p>
+
+        <h3>8. 统计字数和预计时间如何计算？</h3>
+        <p>中文界面按去除标点后的中文字数估算，默认约 220 字/分钟。英文界面按英文词数估算，默认约 150 words/min。</p>
+
+        <h3>支持范围</h3>
+        <ul>
+          <li>无法打开应用或进入提词界面</li>
+          <li>文稿导入、保存、删除异常</li>
+          <li>iPad 或手机横竖屏显示异常</li>
+          <li>蓝牙键盘或翻页器控制异常</li>
+          <li>中英文界面显示异常</li>
+        </ul>
+
+        <h3>联系我们</h3>
+        <p class="contact">如果你需要帮助，请发送邮件至 <a href="mailto:sjszl@vip.qq.com">sjszl@vip.qq.com</a>。反馈问题时，建议附上设备型号、系统版本、使用场景、问题截图和复现步骤。</p>
+      </section>
+
+      <section id="en" lang="en">
+        <h2>English</h2>
+        <p>Thank you for using Yingjian Prompt. Yingjian Prompt V1 is an offline teleprompter for short videos, on-camera speaking, speeches, live streaming, and rehearsal.</p>
+
+        <h3>FAQ</h3>
+        <h3>1. Does Yingjian Prompt require an account or server?</h3>
+        <p>No. V1 does not require an account or server. Scripts and settings are stored locally on your device by default.</p>
+
+        <h3>2. Are scripts uploaded to the cloud?</h3>
+        <p>No. In V1, your script library, titles, display settings, and language preference are stored locally on your device.</p>
+
+        <h3>3. How do I import a script?</h3>
+        <p>Tap “Import TXT” in the script library and choose a local TXT file. You can also paste text from Word, web pages, or messaging apps into the editor. Yingjian Prompt will clean the formatting automatically.</p>
+
+        <h3>4. How do I use a Bluetooth page-turning remote?</h3>
+        <p>Pair the Bluetooth remote with your device first. In the prompter view, common keys can control play, pause, speed, fast-forward, and rewind. Key mappings may vary by device, so we recommend testing before recording.</p>
+
+        <h3>5. Why does the iPad home-screen app still show an old name or old page?</h3>
+        <p>If your device cached an older version, remove the home-screen icon, reopen the latest link in Safari, and add it to the Home Screen again.</p>
+
+        <h3>6. What should I do if scripts are missing?</h3>
+        <p>V1 uses local storage. Deleting the app, clearing browser website data, restoring the system, or changing devices may remove local scripts. We recommend exporting important scripts as TXT files for backup.</p>
+
+        <h3>7. How do I switch languages?</h3>
+        <p>Use the language button at the top of the control page. The default language follows your system language, and you can switch between Chinese and English manually.</p>
+
+        <h3>8. How are word count and estimated time calculated?</h3>
+        <p>In Chinese, the app estimates by Chinese character count after punctuation is removed, using about 220 Chinese characters per minute. In English, the app estimates by word count, using about 150 words per minute.</p>
+
+        <h3>Support Scope</h3>
+        <ul>
+          <li>Unable to open the app or enter the prompter view</li>
+          <li>Script import, saving, or deletion issues</li>
+          <li>iPad or iPhone portrait and landscape display issues</li>
+          <li>Bluetooth keyboard or page-turning remote control issues</li>
+          <li>Chinese and English interface display issues</li>
+        </ul>
+
+        <h3>Contact Us</h3>
+        <p class="contact">If you need help, please email <a href="mailto:sjszl@vip.qq.com">sjszl@vip.qq.com</a>. When reporting an issue, please include your device model, system version, usage scenario, screenshots, and steps to reproduce the issue if possible.</p>
+      </section>
+    </main>
+  </body>
 </html>
+
